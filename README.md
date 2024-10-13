@@ -38,8 +38,9 @@ Below is short explanation of remaining files in the project folder.
 Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
 They are not used or needed when building with CMake and idf.py.
 
-Dealing With LoRaWAN on *The Things Network* requires a custom Javascript Formatter.
-Below is the Uplink formatter that is needed to convert the code parsing from the End-Nodes.
+Dealing With LoRaWAN on **The Things Network** requires a custom Javascript Formatter.
+Below is the **Uplink Formatter** that is needed to convert the code parsing from the End-Nodes.
+
 ```JavaScript
 function Decoder(b, port) {
 
