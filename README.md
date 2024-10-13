@@ -53,7 +53,7 @@ function Decoder(b, port) {
     
       latitude: lat,
       longitude: lon,
-      altitude: alt,
+      // altitude: alt,
       // hdop: hdop
     
   };
